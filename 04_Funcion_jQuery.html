@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Funcion jQuery</title>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"
+				integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+				crossorigin="anonymous"></script> 
+        <script type = "text/javascript">
+           $(document).ready(function()
+           {
+              $("p").css("color", " blue");
+              $("#miId").css("color", " red");
+              $(".miClase").css("color", " green");
+           });
+        </script>
+    </head>
+    <body>
+        <p>Esto es un parrafo</p>
+        <div id="miId">Esto es un bloque div con identificador</div>
+        <div class="miClase">Esto es un bloque div con clase</div>
+    </body>
+ </html>
